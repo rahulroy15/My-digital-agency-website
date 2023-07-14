@@ -5,7 +5,7 @@
 .nav-container{
     display: flex;
     background-color: gray;
-    padding: 20px;
+    padding: 10px;
     justify-content: space-around;
     align-items: center;
 }
@@ -18,5 +18,106 @@
 }
 .banner-container{
     height: 100vh;
-    background-image: url('./asset/image/background.jpg');
+    background-image: url('./asset/image/background.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.03));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+.primary{
+    color: red;
+}
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.descrption{
+    color: white;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+}
+.bg-primary{
+    background-color: red;
+    color: white;
+}
+.service-container{
+    height: 100vh;
+    background-image: url('./asset/image/footer-bg.png'),
+    linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+.icon{
+    width: 70px;
+    margin-bottom: 10px;
+}
+.box{
+    text-align: center;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+.service-description{
+    width: 50%;
+}
+.service-description{
+    display: flex;
+}
+.first-two-box{
+    display: flex;
+    gap: 4px;
+    margin-top:5px ;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 20px;
+}
+.phone-call{
+    display: flex;
+    align-items: center;
+}
+.appointment-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: -30px;
 }
